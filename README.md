@@ -83,12 +83,16 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 
 ## Wireframes
 
+<img src= "https://html.scribdassets.com/3fz7acsum8cbperu/images/1-46fb52c74b.jpg" width=600>
 
-<img src="https://imgur.com/a/yAE36uW)" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+## Video-Walkthrough
+<div>
+    <a href="https://www.loom.com/share/de1f63089ff64b97a06c949959d05c81">
+    </a>
+    <a href="https://www.loom.com/share/de1f63089ff64b97a06c949959d05c81">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/de1f63089ff64b97a06c949959d05c81-with-play.gif">
+    </a>
+  </div>
 
 ## Schema 
 
