@@ -50,7 +50,7 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 
 ### 2. Screen Archetypes
 
-- [ ] Introductory Screen
+- [x] Introductory Screen
 * If first time user then displays some introductory information
 * Displays navigation tabs
 - [ ] Stream
@@ -61,7 +61,7 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 - [ ] Detail
 * User can click on virtues for more information
 * User can click on Stoic philosopher for more information
-- [ ] Creation
+- [x] Creation
 * User can add journal entries based upon the daily quote and and journaling prompt
 
 ### 3. Navigation
@@ -75,12 +75,12 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Daily Quote Tab
+- [x] Daily Quote Tab
 - [x] Journaling tab
 - [ ] Four Virtue Tab
 - [ ] Stoic History Tab
 
-### 4. Sprints
+### 4. Sprints + Required Features
 * Sprint 1: Setup Introductory Screen, and all tabs
 - [x] Introductory Screen (Launch Screen)
 - [x] Daily Quote Tab
@@ -128,8 +128,6 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
   </div>
 
 ## Schema 
-
-[This section will be completed in Unit 9]
 
 ### Models
 
