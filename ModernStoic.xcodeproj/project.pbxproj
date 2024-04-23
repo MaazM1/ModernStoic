@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A888182BD5C872004E25D1 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A888172BD5C872004E25D1 /* Journal.swift */; };
+		40A8881A2BD5D0F9004E25D1 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A888192BD5D0F9004E25D1 /* NewEntryViewController.swift */; };
+		40A8881C2BD5E077004E25D1 /* JournalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8881B2BD5E077004E25D1 /* JournalCell.swift */; };
 		40CF4BAA2BCE3BDB00C79E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BA92BCE3BDB00C79E8F /* AppDelegate.swift */; };
 		40CF4BAC2BCE3BDB00C79E8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BAB2BCE3BDB00C79E8F /* SceneDelegate.swift */; };
-		40CF4BAE2BCE3BDB00C79E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BAD2BCE3BDB00C79E8F /* ViewController.swift */; };
+		40CF4BAE2BCE3BDB00C79E8F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BAD2BCE3BDB00C79E8F /* JournalViewController.swift */; };
 		40CF4BB12BCE3BDB00C79E8F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40CF4BB02BCE3BDB00C79E8F /* Base */; };
 		40CF4BB32BCE3BDD00C79E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CF4BB22BCE3BDD00C79E8F /* Assets.xcassets */; };
 		40CF4BB62BCE3BDD00C79E8F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 40CF4BB52BCE3BDD00C79E8F /* Base */; };
 		40CF4BC12BCE3BDD00C79E8F /* ModernStoicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BC02BCE3BDD00C79E8F /* ModernStoicTests.swift */; };
 		40CF4BCB2BCE3BDD00C79E8F /* ModernStoicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BCA2BCE3BDD00C79E8F /* ModernStoicUITests.swift */; };
 		40CF4BCD2BCE3BDD00C79E8F /* ModernStoicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4BCC2BCE3BDD00C79E8F /* ModernStoicUITestsLaunchTests.swift */; };
+		40FE2E2F2BD753D800CF6107 /* DailyQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE2E2E2BD753D800CF6107 /* DailyQuoteViewController.swift */; };
+		40FE2E312BD76B9600CF6107 /* DailyQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE2E302BD76B9600CF6107 /* DailyQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40A888172BD5C872004E25D1 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		40A888192BD5D0F9004E25D1 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		40A8881B2BD5E077004E25D1 /* JournalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCell.swift; sourceTree = "<group>"; };
 		40CF4BA62BCE3BDB00C79E8F /* ModernStoic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernStoic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CF4BA92BCE3BDB00C79E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40CF4BAB2BCE3BDB00C79E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40CF4BAD2BCE3BDB00C79E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40CF4BAD2BCE3BDB00C79E8F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		40CF4BB02BCE3BDB00C79E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40CF4BB22BCE3BDD00C79E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40CF4BB52BCE3BDD00C79E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		40CF4BC62BCE3BDD00C79E8F /* ModernStoicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernStoicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CF4BCA2BCE3BDD00C79E8F /* ModernStoicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernStoicUITests.swift; sourceTree = "<group>"; };
 		40CF4BCC2BCE3BDD00C79E8F /* ModernStoicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernStoicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40FE2E2E2BD753D800CF6107 /* DailyQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteViewController.swift; sourceTree = "<group>"; };
+		40FE2E302BD76B9600CF6107 /* DailyQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				40CF4BA92BCE3BDB00C79E8F /* AppDelegate.swift */,
 				40CF4BAB2BCE3BDB00C79E8F /* SceneDelegate.swift */,
-				40CF4BAD2BCE3BDB00C79E8F /* ViewController.swift */,
+				40CF4BAD2BCE3BDB00C79E8F /* JournalViewController.swift */,
+				40A888192BD5D0F9004E25D1 /* NewEntryViewController.swift */,
+				40A888172BD5C872004E25D1 /* Journal.swift */,
+				40A8881B2BD5E077004E25D1 /* JournalCell.swift */,
+				40FE2E2E2BD753D800CF6107 /* DailyQuoteViewController.swift */,
+				40FE2E302BD76B9600CF6107 /* DailyQuote.swift */,
 				40CF4BAF2BCE3BDB00C79E8F /* Main.storyboard */,
 				40CF4BB22BCE3BDD00C79E8F /* Assets.xcassets */,
 				40CF4BB42BCE3BDD00C79E8F /* LaunchScreen.storyboard */,
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CF4BAE2BCE3BDB00C79E8F /* ViewController.swift in Sources */,
+				40A8881A2BD5D0F9004E25D1 /* NewEntryViewController.swift in Sources */,
+				40CF4BAE2BCE3BDB00C79E8F /* JournalViewController.swift in Sources */,
 				40CF4BAA2BCE3BDB00C79E8F /* AppDelegate.swift in Sources */,
 				40CF4BAC2BCE3BDB00C79E8F /* SceneDelegate.swift in Sources */,
+				40FE2E312BD76B9600CF6107 /* DailyQuote.swift in Sources */,
+				40FE2E2F2BD753D800CF6107 /* DailyQuoteViewController.swift in Sources */,
+				40A888182BD5C872004E25D1 /* Journal.swift in Sources */,
+				40A8881C2BD5E077004E25D1 /* JournalCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +466,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ModernStoic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -474,7 +494,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ModernStoic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

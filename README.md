@@ -76,16 +76,49 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 **Flow Navigation** (Screen to Screen)
 
 - [ ] Daily Quote Tab
-- [ ] Journaling tab
+- [x] Journaling tab
 - [ ] Four Virtue Tab
 - [ ] Stoic History Tab
+
+### 4. Sprints
+* Sprint 1: Setup Introductory Screen, and all tabs
+- [x] Introductory Screen (Launch Screen)
+- [x] Daily Quote Tab
+- [ ] Four Virtue Tab
+- [ ] Stoic History Tab
+
+* Sprint 2: Journaling Tab:
+- [x] User can create journal entries with persistence 
+- [x] Journal Entries are saved in table view
+
+* Sprint 3: Daily Quote Tab
+- [x] App fetches quotes from an API and displays the quote and author
+- [x] User can refresh quotes to get another quote and author 
+
+* Sprint 4: Four Virtues Tab
+- [ ] Displays the four virtues in a cricle seperated into four quarters
+- [ ] User can click on each one and access a detail view with more info and book reccomendatio.
+
+* Sprint 5: Enhancing UI
+- [ ] Make the UI look cleaner (fonts, background, etc)
+- [ ] add animations to make app more fluid
 
 
 ## Wireframes
 
 <img src= "https://html.scribdassets.com/3fz7acsum8cbperu/images/1-46fb52c74b.jpg" width=600>
 
-## Video-Walkthrough
+
+## Video-Walkthrough (Current)
+<div>
+    <a href="https://www.loom.com/share/e6a310bc5ecf4cbf9075d7b2a4e5160f">
+    </a>
+    <a href="https://www.loom.com/share/e6a310bc5ecf4cbf9075d7b2a4e5160f">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e6a310bc5ecf4cbf9075d7b2a4e5160f-with-play.gif">
+    </a>
+  </div>
+  
+## Video-Walkthrough (OLD)
 <div>
     <a href="https://www.loom.com/share/de1f63089ff64b97a06c949959d05c81">
     </a>
@@ -100,10 +133,13 @@ ModernStoic is a mobile app designed to integrate the principles of Stoic philos
 
 ### Models
 
-[Add table of models]
+- Journal Cell
+- Journal Table View
+- DailyQuote
 
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- API request to fetch daily quotes
+- Example: "text": "You live as though you were going to live for ever, at no time taking thought for your weakness, and you fail to note how much time has already passed by.",
+    "author": "Seneca"
+
