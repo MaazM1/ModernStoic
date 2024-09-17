@@ -3,7 +3,7 @@ Original App Design Project
 
 # ModernStoic
 
-## Table of Contents
+## Table of Contents  
 
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
